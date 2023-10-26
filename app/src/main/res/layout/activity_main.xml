@@ -8,13 +8,15 @@
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity" >
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#C3000000"
         android:gravity="center"
         android:text="Restaurant's Menu"
-        android:textColor="#FFB96E"
+        android:textColor="#DAFFFFFF"
         android:textSize="34sp"
         android:textStyle="bold" />
 
@@ -22,10 +24,9 @@
         android:id="@+id/listViewMain"
         android:layout_width="361dp"
         android:layout_height="652dp"
+        android:layout_marginTop="10dp"
         android:background="#B9FFFFFF"
         android:cacheColorHint="#00000000"
         android:paddingLeft="10dp"
-        android:paddingTop="15dp"
-        android:paddingRight="10dp"
-        android:paddingBottom="15dp" />
+        android:paddingRight="10dp" />
 </LinearLayout>

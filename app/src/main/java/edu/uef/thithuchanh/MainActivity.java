@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
@@ -78,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         lv = (ListView) findViewById(R.id.listViewMain);
         menu = getResources().getStringArray(R.array.layout_name_string);
 
@@ -96,6 +98,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent switchActivityIntent = new Intent(getApplicationContext(), CustomerList.class);
                 switchActivityIntent.putExtra("itemname", itemname);
                 switchActivityIntent.putExtra("position", pos );
+                overridePendingTransition(R.anim.slide_out_bottom, R.anim.slide_in_bottom);
                 startActivity(switchActivityIntent);
             }
         });

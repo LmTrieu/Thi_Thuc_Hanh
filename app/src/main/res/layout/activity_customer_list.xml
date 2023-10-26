@@ -4,13 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_gk"
+    android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Item Cart"
+        android:textColor="#FFFC56"
+        android:textSize="34sp"
+        android:textStyle="bold" />
 
     <ListView
         android:id="@+id/listViewMain"
-        android:layout_width="match_parent"
-        android:layout_height="673dp"
+        android:layout_width="361dp"
+        android:layout_height="634dp"
+        android:background="#B9FFFFFF"
         android:cacheColorHint="#00000000"
         android:paddingLeft="10dp"
         android:paddingTop="15dp"

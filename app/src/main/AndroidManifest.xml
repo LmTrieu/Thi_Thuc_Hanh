@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ThiThucHanh"
         tools:targetApi="31">
+
         <activity
             android:name=".CustomerList"
             android:exported="false" />

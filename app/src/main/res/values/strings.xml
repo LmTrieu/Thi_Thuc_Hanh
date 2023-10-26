@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Thi Thuc Hanh</string>
+    <string-array name="layout_name_string">
+        <item>Bread</item>
+        <item>Cherry Cheesecake</item>
+        <item>Gingerbread House</item>
+        <item>Hamburger</item>
+        <item>Sunny Side Up Eggs</item>
+        <item>Sunny Side Up Eggs</item>
+        <item>Hamburger</item>
+        <item>Gingerbread House</item>
+        <item>Cherry Cheesecake</item>
+        <item>Bread</item>
+    </string-array>
+    <string name="back_button">Return to menu</string>
+    <string name="toast_msg">clicked at position</string>
+</resources>

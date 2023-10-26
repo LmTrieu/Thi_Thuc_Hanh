@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Thi Thuc Hanh</string>
+    <string-array name="layout_name_string">
+        <item>Pain</item>
+        <item>Cerisier gâteau au fromage</item>
+        <item>Maison de pain d\'épice</item>
+        <item>Hamburger</item>
+        <item>Oeufs au plat</item>
+        <item>Oeufs au plat</item>
+        <item>Hamburger</item>
+        <item>Maison de pain d\'épice</item>
+        <item>Cerisier gâteau au fromage </item>
+        <item>Pain</item>
+    </string-array>
+    <string name="back_button">Retour au menu</string>
+    <string name="toast_msg"> cliqué en position </string>
+</resources>
